@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="88" fill="url(#grad)"/>
+  <path d="M100 148 C100 148 52 118 52 82 C52 62 68 48 86 48 C94 48 100 52 100 52 C100 52 106 48 114 48 C132 48 148 62 148 82 C148 118 100 148 100 148 Z" fill="#ffffff"/>
+  <text x="100" y="176" fill="#ffffff" font-size="11" font-weight="800" font-family="system-ui, sans-serif" text-anchor="middle" letter-spacing="3">SPECIAL GIFT</text>
+</svg>

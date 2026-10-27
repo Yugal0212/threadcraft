@@ -1,6 +1,7 @@
 import {
   ACCEPTED_IMAGE_EXTENSIONS,
   ACCEPTED_IMAGE_TYPES,
+  MAX_IMAGE_SIZE_BYTES,
 } from './constants'
 
 export function isAcceptedImageFile(file: File): boolean {
@@ -14,6 +15,10 @@ export function isAcceptedImageFile(file: File): boolean {
 
   const name = file.name.toLowerCase()
   return ACCEPTED_IMAGE_EXTENSIONS.some((ext) => name.endsWith(ext))
+}
+
+export function isFileSizeAccepted(file: File): boolean {
+  return file.size <= MAX_IMAGE_SIZE_BYTES
 }
 
 export function readFileAsDataUrl(file: File): Promise<string> {

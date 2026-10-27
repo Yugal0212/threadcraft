@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <circle cx="100" cy="100" r="90" fill="#1e293b" stroke="#e2e8f0" stroke-width="4"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4,4"/>
+  <path d="M45 130 L100 50 L155 130 Z" fill="#3b82f6"/>
+  <path d="M75 130 L100 85 L125 130 Z" fill="#60a5fa"/>
+  <path d="M100 50 L115 75 L100 85 L85 75 Z" fill="#ffffff"/>
+  <circle cx="140" cy="65" r="12" fill="#fbbf24"/>
+  <path d="M40 130 Q100 120 160 130 L160 145 Q100 135 40 145 Z" fill="#0f172a"/>
+  <text x="100" y="165" fill="#f8fafc" font-size="14" font-weight="900" font-family="system-ui, sans-serif" text-anchor="middle" letter-spacing="3">EXPLORE</text>
+</svg>
